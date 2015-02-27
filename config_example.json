@@ -1,0 +1,12 @@
+{
+    "parameters": "-it",
+    "ports": [{
+        "src": 3020,
+        "dest": 33033
+    }],
+    "volumes": [{
+        "src": "test",
+        "dest": "test"
+    }],
+    "command": "/bin/sh appLivereload.sh 3020"
+}
