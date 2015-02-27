@@ -1,0 +1,30 @@
+{
+  "name": "dm-docker",
+  "version": "0.0.0",
+  "description": "helper for docker tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r landing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/divramod/dm-docker.git"
+  },
+  "keywords": [
+    "docker"
+  ],
+  "author": "Arvid Petermann <arvidpetermann@gmail.com> (http://arvidpetermann.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divramod/dm-docker/issues"
+  },
+  "homepage": "https://github.com/divramod/dm-docker",
+  "bin": {
+    "dmdocker": "./bin/dm-docker"
+  },
+  "dependencies": {
+    "colors": "^1.0.3",
+    "fs": "0.0.2",
+    "shelljs": "^0.3.0"
+  }
+}
