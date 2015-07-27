@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/divramod/dm-docker",
   "bin": {
-    "dmdocker": "./bin/dm-docker"
+    "dmdocker": "./bin/dm-docker",
+    "dmd": "./bin/dm-docker"
   },
   "dependencies": {
     "colors": "^1.0.3",

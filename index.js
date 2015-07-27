@@ -18,7 +18,7 @@ dmDocker.start = function() {
     }
     if (a === "crun") {
         //var config = JSON.parse(fs.readFileSync(__dirname + "/config.json", "utf8"));
-        var config = JSON.parse(fs.readFileSync( "./config.json", "utf8"));
+        var config = JSON.parse(fs.readFileSync("./config.json", "utf8"));
         container.run(process.argv[3], process.argv[4], config);
     }
     if (a === "cremove") {
@@ -26,6 +26,9 @@ dmDocker.start = function() {
     }
     if (a === "cstop") {
         container.stop(process.argv[3]);
+    }
+    if (a === "help") {
+        console.log("help");
     }
 }; // dm-docker.start
 
