@@ -1,3 +1,4 @@
-#!/usr/bin/env node
-
-require('../index.js').start();
+#!/bin/sh
+#BASEDIR=$(dirname $0)
+LINKDIR=$(readlink $0)
+sudo node --harmony $LINKDIR/../../global.js $1 $2 $3 $4

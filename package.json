@@ -26,6 +26,7 @@
   "dependencies": {
     "co": "^4.6.0",
     "colors": "^1.0.3",
+    "dockerode": "^2.2.2",
     "fs": "0.0.2",
     "shelljs": "^0.3.0"
   }
