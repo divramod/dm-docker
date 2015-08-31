@@ -1,6 +1,6 @@
 {
   "name": "dm-docker",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "helper for docker tasks",
   "main": "index.js",
   "scripts": {
