@@ -1,33 +1,34 @@
 {
-  "name": "dm-docker",
-  "version": "0.1.6",
-  "description": "helper for docker tasks",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha -r landing"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/divramod/dm-docker.git"
-  },
-  "keywords": [
-    "docker"
-  ],
-  "author": "Arvid Petermann <arvidpetermann@gmail.com> (http://arvidpetermann.com/)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/divramod/dm-docker/issues"
-  },
-  "homepage": "https://github.com/divramod/dm-docker",
-  "bin": {
-    "dmdocker": "./bin/dm-docker",
-    "dmd": "./bin/dm-docker"
-  },
-  "dependencies": {
-    "co": "^4.6.0",
-    "colors": "^1.0.3",
-    "dockerode": "^2.2.2",
-    "fs": "0.0.2",
-    "shelljs": "^0.3.0"
-  }
+    "name": "dm-docker",
+    "version": "0.1.6",
+    "description": "helper for docker tasks",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha -r landing"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/divramod/dm-docker.git"
+    },
+    "keywords": [
+        "docker"
+    ],
+    "author": "Arvid Petermann <arvidpetermann@gmail.com> (http://arvidpetermann.com/)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/divramod/dm-docker/issues"
+    },
+    "homepage": "https://github.com/divramod/dm-docker",
+    "bin": {
+        "dmdocker": "./bin/dm-docker",
+        "dmd": "./bin/dm-docker"
+    },
+    "dependencies": {
+        "co": "^4.6.0",
+        "colors": "^1.0.3",
+        "dm-npm": "^0.1.14",
+        "dockerode": "^2.2.2",
+        "fs": "0.0.2",
+        "shelljs": "^0.3.0"
+    }
 }
